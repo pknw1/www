@@ -11,6 +11,7 @@
   
   
   <title>Home</title>
+  <link rel="stylesheet" href="assets/themify/css/themify-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -25,6 +26,58 @@
   
   
   
+<style>
+
+.modal-content { background: red; color: white;     font-family: IBM Plex Sans;
+ }
+</style>
+
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #fafafa;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  font-weight: bold;
+  color: #212121;
+}
+.dud {
+  color: #757575;
+}
+
+.overlay{
+  position:fixed;
+  width:100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.0);
+  pointer-events: none;
+}
+
+.banner{
+  text-align:left;
+  background-color:#ffffff00;
+  font-size:28px;
+  color:red;
+  width:900px;
+}
+
+
+</style>
+
+
 </head>
 <body>
   
@@ -49,14 +102,13 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html#about">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#about">
                             About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html#tooling">Tech</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html#links">Links</a>
-                    </li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html#clients">Clients</a></li></ul>
+                    <li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#tooling">Tech</a></li>
+                    <li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#links">Links</a>
+                    </li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#clients">Clients</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">CV</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="https://cv2021.pknw1.co.uk" target="_blank">Link to CV</a><a class="dropdown-item text-white display-4" href="assets/files/PK-CVJUL20219pt3page090721.pdf" target="_blank">Download PDF</a></div></li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="https://cv2021.pknw1.co.uk" target="_blank">
-                        Download CV</a></div>
+                
             </div>
         </div>
     </nav>
@@ -86,7 +138,7 @@
         </div>
         <div class="row align-items-center">
             <div class="col-12 col-lg-6 video-block">
-                <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/KYoPQKPui0M?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+                <div class="video-wrapper"><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/KYoPQKPui0M?rel=0&amp;amp;showinfo=0&amp;autoplay=1&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
                 
             </div>
             <div class="col-12 col-lg">
@@ -208,7 +260,7 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n" data-rv-view="98">
+<section class="mbr-section" id="witsec-modal-window-block-n" data-rv-view="12">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -271,7 +323,7 @@
 																
                         </div>
 
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#bots").on("hidden.bs.modal", function () {    var html = $( "#bots_body" ).html();    $( "#bots_body" ).empty();    $( "#bots_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#bots").on("hidden.bs.modal", function () {    var html = $( "#bots_body" ).html();    $( "#bots_body" ).empty();    $( "#bots_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -309,7 +361,7 @@
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-c" data-rv-view="99">
+<section class="mbr-section" id="witsec-modal-window-block-c" data-rv-view="13">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -377,7 +429,7 @@
 											</div>
 										</div>
 								</div>
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#vanquis").on("hidden.bs.modal", function () {    var html = $( "#vanquis_body" ).html();    $( "#vanquis_body" ).empty();    $( "#vanquis_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#vanquis").on("hidden.bs.modal", function () {    var html = $( "#vanquis_body" ).html();    $( "#vanquis_body" ).empty();    $( "#vanquis_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -415,7 +467,7 @@
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-17" data-rv-view="100">
+<section class="mbr-section" id="witsec-modal-window-block-17" data-rv-view="14">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -448,7 +500,7 @@ Returning to IBM immediately after finishing my degree, I worked on the day-to-d
 																
                         </div>
 
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#ibm").on("hidden.bs.modal", function () {    var html = $( "#ibm_body" ).html();    $( "#ibm_body" ).empty();    $( "#ibm_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#ibm").on("hidden.bs.modal", function () {    var html = $( "#ibm_body" ).html();    $( "#ibm_body" ).empty();    $( "#ibm_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -486,7 +538,7 @@ Returning to IBM immediately after finishing my degree, I worked on the day-to-d
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-o" data-rv-view="101">
+<section class="mbr-section" id="witsec-modal-window-block-o" data-rv-view="15">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -558,7 +610,7 @@ only report on error with the aim of full platform automated delivery</li></ul><
 											</div>
 										</div>
 								</div>
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#smartfocus").on("hidden.bs.modal", function () {    var html = $( "#smartfocus_body" ).html();    $( "#smartfocus_body" ).empty();    $( "#smartfocus_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#smartfocus").on("hidden.bs.modal", function () {    var html = $( "#smartfocus_body" ).html();    $( "#smartfocus_body" ).empty();    $( "#smartfocus_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -596,7 +648,7 @@ only report on error with the aim of full platform automated delivery</li></ul><
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-p" data-rv-view="102">
+<section class="mbr-section" id="witsec-modal-window-block-p" data-rv-view="16">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -666,7 +718,7 @@ and consumption.
 											</div>
 										</div>
 								</div>-->
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#sony").on("hidden.bs.modal", function () {    var html = $( "#sony_body" ).html();    $( "#sony_body" ).empty();    $( "#sony_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#sony").on("hidden.bs.modal", function () {    var html = $( "#sony_body" ).html();    $( "#sony_body" ).empty();    $( "#sony_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -704,7 +756,7 @@ and consumption.
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-f" data-rv-view="103">
+<section class="mbr-section" id="witsec-modal-window-block-f" data-rv-view="17">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -756,7 +808,7 @@ internal J2EE projects across the EMEA and US.
 																
                         </div>
 
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#citi").on("hidden.bs.modal", function () {    var html = $( "#citi_body" ).html();    $( "#citi_body" ).empty();    $( "#citi_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#citi").on("hidden.bs.modal", function () {    var html = $( "#citi_body" ).html();    $( "#citi_body" ).empty();    $( "#citi_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -794,7 +846,7 @@ internal J2EE projects across the EMEA and US.
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-q" data-rv-view="104">
+<section class="mbr-section" id="witsec-modal-window-block-q" data-rv-view="18">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -853,7 +905,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
                             </div>
 																
-                        </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#mol").on("hidden.bs.modal", function () {    var html = $( "#mol_body" ).html();    $( "#mol_body" ).empty();    $( "#mol_body" ).append(html);  })});</script></div></div>
+                        </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#mol").on("hidden.bs.modal", function () {    var html = $( "#mol_body" ).html();    $( "#mol_body" ).empty();    $( "#mol_body" ).append(html);  })});</script></div></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -891,7 +943,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-16" data-rv-view="105">
+<section class="mbr-section" id="witsec-modal-window-block-16" data-rv-view="19">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -923,7 +975,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 																
                         </div>
 
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#rubus").on("hidden.bs.modal", function () {    var html = $( "#rubus_body" ).html();    $( "#rubus_body" ).empty();    $( "#rubus_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#rubus").on("hidden.bs.modal", function () {    var html = $( "#rubus_body" ).html();    $( "#rubus_body" ).empty();    $( "#rubus_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -961,7 +1013,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-r" data-rv-view="106">
+<section class="mbr-section" id="witsec-modal-window-block-r" data-rv-view="20">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -990,7 +1042,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 																
                         </div>
 	
-                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#cv").on("hidden.bs.modal", function () {    var html = $( "#cv_body" ).html();    $( "#cv_body" ).empty();    $( "#cv_body" ).append(html);  })});</script></div>
+                    </div></div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://cv2021.pknw1.co.uk" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#cv").on("hidden.bs.modal", function () {    var html = $( "#cv_body" ).html();    $( "#cv_body" ).empty();    $( "#cv_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -1028,7 +1080,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-e" data-rv-view="107">
+<section class="mbr-section" id="witsec-modal-window-block-e" data-rv-view="21">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1183,7 +1235,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-g" data-rv-view="108">
+<section class="mbr-section" id="witsec-modal-window-block-g" data-rv-view="22">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1236,7 +1288,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-h" data-rv-view="109">
+<section class="mbr-section" id="witsec-modal-window-block-h" data-rv-view="23">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1290,7 +1342,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-d" data-rv-view="110">
+<section class="mbr-section" id="witsec-modal-window-block-d" data-rv-view="24">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1373,7 +1425,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-i" data-rv-view="111">
+<section class="mbr-section" id="witsec-modal-window-block-i" data-rv-view="25">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1426,7 +1478,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-j" data-rv-view="112">
+<section class="mbr-section" id="witsec-modal-window-block-j" data-rv-view="26">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1479,7 +1531,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-k" data-rv-view="113">
+<section class="mbr-section" id="witsec-modal-window-block-k" data-rv-view="27">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1532,7 +1584,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-l" data-rv-view="114">
+<section class="mbr-section" id="witsec-modal-window-block-l" data-rv-view="28">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1547,7 +1599,155 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 	
 	
-	<div><div class="modal fade" id="Automation" tabindex="-1" role="dialog" aria-labelledby="AutomationLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="AutomationLabel">Modal title</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Automation_body">Modal body text goes here.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Automation").on("hidden.bs.modal", function () {    var html = $( "#Automation_body" ).html();    $( "#Automation_body" ).empty();    $( "#Automation_body" ).append(html);  })});</script></div>
+	<div><div class="modal fade" id="Automation" tabindex="-1" role="dialog" aria-labelledby="AutomationLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="AutomationLabel">Modal title</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Automation_body">
+<style>
+
+.modal-content { background: red; color: white;     font-family: IBM Plex Sans;
+ }
+</style>
+
+
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #fafafa;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  font-weight: bold;
+  color: #212121;
+}
+.dud {
+  color: #757575;
+}
+
+.overlay{
+  position:fixed;
+  width:100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.0);
+  pointer-events: none;
+}
+
+.banner{
+  text-align:left;
+  background-color:#ffffff00;
+  font-size:28px;
+  color:red;
+  width:900px;
+}
+
+
+</style>
+
+
+
+
+
+
+   
+       
+ 
+ <div class="text"></div>
+<a href="https://cv2021.pknw1.co.uk" target="_new">Latest CV</a>|<a href="https://github.com/pknw1" target="_new">GitHub</a>|<a href="https://hub.docker.com/u/pknw1" target="_new">Docker</a>
+<script id="rendered-js">
+// ——————————————————————————————————————————————————
+// TextScramble
+// ——————————————————————————————————————————————————
+
+class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise(resolve => this.resolve = resolve);
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || '';
+      const to = newText[i] || '';
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({ from, to, start, end });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = '';
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }}
+
+
+// ——————————————————————————————————————————————————
+// Example
+// ——————————————————————————————————————————————————
+
+const phrases = [
+'more detail in my CV',
+'',
+'notflix.pknw1.co.uk',
+'requests.pknw1.co.uk'
+];
+
+
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 2000);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next();
+//# sourceURL=pen.js
+    </script>
+
+</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Automation").on("hidden.bs.modal", function () {    var html = $( "#Automation_body" ).html();    $( "#Automation_body" ).empty();    $( "#Automation_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -1585,7 +1785,7 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-m" data-rv-view="115">
+<section class="mbr-section" id="witsec-modal-window-block-m" data-rv-view="29">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -1600,7 +1800,10 @@ enhancement definition, estimation, planning, implementation, testing and deploy
 
 	
 	
-	<div><div class="modal " id="Policy" tabindex="-1" role="dialog" aria-labelledby="PolicyLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="PolicyLabel">Download CV</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Policy_body">Find more details in my CV</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="/assets/files/Paul-KelleherCVNov2020v1.2-includeomittedSecOpsitems.pdf" class="no-anim btn btn-primary display-4" target="_new">Download CV</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Policy").on("hidden.bs.modal", function () {    var html = $( "#Policy_body" ).html();    $( "#Policy_body" ).empty();    $( "#Policy_body" ).append(html);  })});</script></div>
+	<div><div class="modal " id="Policy" tabindex="-1" role="dialog" aria-labelledby="PolicyLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="PolicyLabel">Download CV</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Policy_body">
+ <div class="text"></div>
+<a href="https://cv2021.pknw1.co.uk" target="_new">Latest CV</a>|<a href="https://github.com/pknw1" target="_new">GitHub</a>|<a href="https://hub.docker.com/u/pknw1" target="_new">Docker</a>
+</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Policy").on("hidden.bs.modal", function () {    var html = $( "#Policy_body" ).html();    $( "#Policy_body" ).empty();    $( "#Policy_body" ).append(html);  })});</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -1672,7 +1875,92 @@ enhancement definition, estimation, planning, implementation, testing and deploy
     </div>
 </section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/playervimeo/vimeo_player.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
-  
+  <script id="rendered-js">
+// ——————————————————————————————————————————————————
+// TextScramble
+// ——————————————————————————————————————————————————
+
+class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise(resolve => this.resolve = resolve);
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || '';
+      const to = newText[i] || '';
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({ from, to, start, end });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = '';
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }}
+
+
+// ——————————————————————————————————————————————————
+// Example
+// ——————————————————————————————————————————————————
+
+const phrases = [
+'more detail in my CV',
+'',
+'notflix.pknw1.co.uk',
+'requests.pknw1.co.uk'
+];
+
+
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 2000);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next();
+//# sourceURL=pen.js
+    </script>
+
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
   </body>
 </html>
