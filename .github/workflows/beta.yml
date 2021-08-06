@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: ls -a via OPEN SSH Private Key
+      - name: update beta
         uses: garygrossgarten/github-action-ssh@release
         with:
           command: cd ${{ secrets.BASEPATH }}/beta.pknw1.co.uk && git pull
