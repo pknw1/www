@@ -30,5 +30,6 @@ jobs:
         with:
           command: ls -a
           host: ${{ secrets.HOST }}
+          port: 69
           username: root
           privateKey: ${{ secrets.PRIVATE_KEY}}
