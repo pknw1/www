@@ -23,7 +23,7 @@ jobs:
       - name: ls -a via OPEN SSH Private Key
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd ${{ secrets.BASEPATH }}/www/actions-test && git pull
+          command: cd ${{ secrets.BASEPATH }}/actions-test && git pull
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}
