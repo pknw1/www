@@ -12,7 +12,7 @@ jobs:
       - name: Release Pull
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd ${{ secrets.BASEPATH }} && mkdir test-$(date +%d%m%y%H%M) #rel.pknw1.co.uk && git pull
+          command: cd ${{ secrets.BASEPATH }}/releases-pknw1.co.uk && cp -R ../beta.pknw1.co.uk release-$(date +%d%m%y%H%M) && find . -type d -iname '.git' -delete #rel.pknw1.co.uk && git pull
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}
