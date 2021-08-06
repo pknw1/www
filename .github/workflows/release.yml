@@ -14,14 +14,14 @@ jobs:
         with:
           command: cd ${{ secrets.BASEPATH }}/rel.pknw1.co.uk && git pull
           host: ${{ secrets.HOST }}
-          port: ${{ secrets.PORT }}
-          username: ${{ secrets.USER }}
-          privateKey: ${{ secrets.PRIVATE_KEY}}
+          port: ${{ secrets.KS2_PORT }}
+          username: ${{ secrets.KS2_USER }}
+          privateKey: ${{ secrets.KS2_PRIVATE_KEY}}
       - name: Extract tag name
         id: tag
         uses: actions/github-script@0.2.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PAT }}
           script: |
             return context.payload.ref.replace(/\/refs\/tags\//, '');
       - name: Echo
