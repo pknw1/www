@@ -9,14 +9,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Get the version
-        id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
-      - run: echo $VERSION
       - name: Release Pull
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd ${{ secrets.BASEPATH }}/rel.pknw1.co.uk && git pull
+          command: cd ${{ secrets.BASEPATH }} && mkdir test-$(date +%d%m%y%H%M) #rel.pknw1.co.uk && git pull
           host: ${{ secrets.HOST }}
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USER }}
