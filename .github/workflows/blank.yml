@@ -23,7 +23,7 @@ jobs:
       - name: ls -a via OPEN SSH Private Key
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd /home/docker/compose/services/config/docker-proxy/www/actions-test && ls -l
+          command: cd /home/docker/compose/services/config/docker-proxy/www/actions-test && git pull
           host: ${{ secrets.HOST }}
           port: 69
           username: root
